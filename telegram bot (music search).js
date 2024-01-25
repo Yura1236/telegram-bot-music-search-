@@ -82,12 +82,6 @@ bot.on('callback_query', (query) => {
 
 
 
-
-
-
-
-
-
 // Хранение списка подписчиков
 const subscribers = new Set();
 let isAdminMode = false; // Флаг режима администратора
@@ -154,68 +148,10 @@ bot.on('message', (msg) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Обработка ошибок опроса
 bot.on('polling_error', (error) => {
   console.log(`Polling error: ${error.message}`);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
